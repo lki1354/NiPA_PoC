@@ -14,23 +14,39 @@ Nonintrusive Power Analyser Proof of Concept
 
 ## Quantify Collaboration Board (QCB) 
 
-### Current Measurment Board (CMB)
+### Voltage Current Board (VCB)
 
-#### Versions
+#### Content
 
-- Coil + Amplifier & Compass
+- Coil + Amplifier
+- Compass
+- Capacitor + Amplifier
+
+#### Current Measurment Board (CMB)
+
+##### Content
+
 - Coil + Amplifier
 - Compass 
 
-### Voltage Measurment Board (VMB)
+#### Voltage Measurment Board (VMB)
 
-#### Versions
+##### Content
 
 - Capacitor + Amplifier
 
-### Voltage Current Board (VCB)
+#### Current Coil Board (CCB)
 
-#### Versions
+##### Content
 
-- Coil + Amplifier & Compass & Capacitor + Amplifier
+- Coil + Amplifier
+
+#### Current Measurment Board (CMB)
+
+##### Content
+
+- Compass 
+
+
+
 
