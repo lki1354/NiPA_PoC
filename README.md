@@ -47,6 +47,11 @@ Nonintrusive Power Analyser Proof of Concept
 
 - Compass 
 
+## Hardware
+
+### Amplifier
+
+- [INA826](https://www.ti.com/product/INA826)
 
 
 
