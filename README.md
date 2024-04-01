@@ -61,6 +61,8 @@ Nonintrusive Power Analyser Proof of Concept
 - for Voltage: [INA332](https://www.ti.com/product/de-de/INA332)
 - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA2332)
 
+- INA823 VS INA331
+
 ### Magnet
 - [MMC5603NJ](https://www.memsic.com/magnetometer-2)
 - or [MMC5633NJL](https://www.memsic.com/magnetometer-1)
