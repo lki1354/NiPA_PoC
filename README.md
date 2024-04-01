@@ -64,5 +64,6 @@ Nonintrusive Power Analyser Proof of Concept
 ### Magnet
 - [MMC5603NJ](https://www.memsic.com/magnetometer-2)
 - or [MMC5633NJL](https://www.memsic.com/magnetometer-1)
+- or [mlx90392](https://www.melexis.com/en/product/mlx90392/3d-magnetometer-micro-power-and-cost-conscious)
 
 
