@@ -57,7 +57,12 @@ Nonintrusive Power Analyser Proof of Concept
 
 ### Amplifier
 
-- [INA826](https://www.ti.com/product/INA826)
+- for Current: [INA826](https://www.ti.com/product/INA826)
+- for Voltage: [INA332](https://www.ti.com/product/de-de/INA332)
+- 
 
+### Magnet
+- [MMC5603NJ](https://www.memsic.com/magnetometer-2)
+- or [MMC5633NJL](https://www.memsic.com/magnetometer-1)
 
 
