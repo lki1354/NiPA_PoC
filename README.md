@@ -56,16 +56,14 @@ Nonintrusive Power Analyser Proof of Concept
 - (Documentation)(https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
 
 ### Amplifier
+select: - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA2332)
 [list OP ](https://www.ti.com/amplifier-circuit/instrumentation/products.html#1181typ=0.1%3B2&773max=1000%3B10000&769max=0.01%3B0.6&sort=1130;asc&)
 - for Current: [INA826](https://www.ti.com/product/INA826)
 - for Voltage: [INA332](https://www.ti.com/product/de-de/INA332)
-- two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA2332)
 
 - INA823 VS INA331
 
 ### Magnet
 - [MMC5603NJ](https://www.memsic.com/magnetometer-2)
-- or [MMC5633NJL](https://www.memsic.com/magnetometer-1)
-- or [mlx90392](https://www.melexis.com/en/product/mlx90392/3d-magnetometer-micro-power-and-cost-conscious)
 
 
