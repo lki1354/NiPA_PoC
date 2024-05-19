@@ -59,9 +59,34 @@ Nonintrusive Power Analyser Proof of Concept
 select: - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA2332)
 [list OP ](https://www.ti.com/amplifier-circuit/instrumentation/products.html#1181typ=0.1%3B2&773max=1000%3B10000&769max=0.01%3B0.6&sort=1130;asc&)
 - for Current: [INA826](https://www.ti.com/product/INA826)
+- for Current: [ad8226](https://www.analog.com/en/products/ad8226.html)
 - for Voltage: [INA332](https://www.ti.com/product/de-de/INA332)
+- for Voltage: [max9636](https://www.analog.com/en/products/max9636.html)
+- for Voltage: [max44261](https://www.analog.com/en/products/max44261.html)
 
 - INA823 VS INA331
+
+
+#### Compare Current amp
+
+| Device | cost per 1000 | Ib | Vo | Gain @100kHz |
+| ------ | ------------- | -- | -- | ---------- |
+| INA826 | $1.057|    |    |            |
+| AD8226 |$1.29|    |    |            |
+|        |               |    |    |            |
+|        |               |    |    |            |
+
+
+#### Compare Voltage amp
+
+| Device | cost per 1000 | Ib | Vo | Gain @1Mhz |
+| ------ | ------------- | -- | -- | ---------- |
+|INA332  |$0.544|    |    |            |
+| MAX9636|$0.57|    |    |            |
+|MAX44261|$0.85|    |    |            |
+
+
+
 
 ### Magnet
 - [MMC5603NJ](https://www.memsic.com/magnetometer-2)
