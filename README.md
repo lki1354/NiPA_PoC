@@ -79,11 +79,11 @@ select: - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA23
 
 #### Compare Voltage amp
 
-| Device | cost per 1000 | Ib | Vo | Gain @1Mhz |
+| Device | cost per 1000 | Ib | Vo | Gain @100kHz |
 | ------ | ------------- | -- | -- | ---------- |
-|INA332  |$0.544|    |    |            |
-| MAX9636|$0.57|    |    |            |
-|MAX44261|$0.85|    |    |            |
+|INA332  |$0.544|±0.5 pA| ±2mV| 400|
+| MAX9636|$0.57|±0.1pA|0.3mV|10|
+|MAX44261|$0.85|0.01pA|0.01mV|100|
 
 
 
