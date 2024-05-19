@@ -71,10 +71,12 @@ select: - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA23
 
 | Device | cost per 1000 | Ib | Vo | Gain @100kHz |
 | ------ | ------------- | -- | -- | ---------- |
-| INA826 | $1.057|    |    |            |
-| AD8226 |$1.29|    |    |            |
-|        |               |    |    |            |
-|        |               |    |    |            |
+| INA826 | $1.057|35nA|0.04mV|56|
+| AD8226 |$1.29|20nA|0.05mV    |17|
+|AD8421 (5V)|$2.7|1nA|0.07mV|1000|
+|INA849 (8V)|$2.7|20nA|0.01mV|1000|
+|INA821 (4.5V)|$2.5|0.15nA|0.01mV|300|
+
 
 
 #### Compare Voltage amp
