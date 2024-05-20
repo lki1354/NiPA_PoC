@@ -66,6 +66,9 @@ select: - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA23
 
 - INA823 VS INA331
 
+#### support ICs
+- ref Voltage
+- negative Supply
 
 #### Compare Current amp
 
