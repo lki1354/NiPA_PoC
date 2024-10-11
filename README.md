@@ -60,6 +60,7 @@ select: - two times: [INA2332](https://www.ti.com/product/INA2332?keyMatch=INA23
 [list OP ](https://www.ti.com/amplifier-circuit/instrumentation/products.html#1181typ=0.1%3B2&773max=1000%3B10000&769max=0.01%3B0.6&sort=1130;asc&)
 - for Current: [INA826](https://www.ti.com/product/INA826)
 - for Current: [ad8226](https://www.analog.com/en/products/ad8226.html)
+- for current: [AD8421](https://www.analog.com/en/products/ad8421.html)
 - for Voltage: [INA332](https://www.ti.com/product/de-de/INA332)
 - for Voltage: [max9636](https://www.analog.com/en/products/max9636.html)
 - for Voltage: [max44261](https://www.analog.com/en/products/max44261.html)
