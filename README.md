@@ -9,6 +9,7 @@ Nonintrusive Power Analyser Proof of Concept
 ## Main Control Board (MCB)
 - [XIAO-RP2040](https://github.com/Seeed-Studio/wiki-documents/blob/31780f7dfb7438a48e944de60c9eee259ebd8c73/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_RP2040/XIAO-RP2040.md#L4)
 - [XIAO-ESP32S3](https://github.com/Seeed-Studio/wiki-documents/blob/docusaurus-version/docs/Sensor/SeeedStudio_XIAO/SeeedStudio_XIAO_ESP32S3/XIAO_ESP32S3_Getting_Started.md)
+- [Tiny 2350](https://shop.pimoroni.com/products/tiny-2350?variant=42092638699603)
 
 ## Adapter Connection Board (ACB)
 
