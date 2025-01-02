@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.20.4
 
 using Markdown
 using InteractiveUtils
@@ -20,7 +20,7 @@ md"## Definitions"
 ρ_copper = 1.68 * 10^−8 * Ω*m
 
 # ╔═╡ b967a1a1-72f0-4e69-bec8-5194366c94c7
-r_wire= 2.55mm; h_pcb= 0.25mm ; r_pad = 0.35mm/2; spacing = 0.06mm; length = 20mm
+r_wire= 2.5mm; h_pcb= 0.25mm ; r_pad = 0.35mm/2; spacing = 0.152mm; length = 20mm
 
 # ╔═╡ 7cb3f910-f928-4230-aa04-658271bd59b5
 f0 = 150Hz; I0 = 3.0A; f1 = 500Hz; I1 = 0.3A ; f2 = 1kHz; I2 = 0.15A;
@@ -32,10 +32,16 @@ f50 = 50Hz; I50 = 50.0A; h=39; f39=50Hz*h
 I39=0.15A*15/h
 
 # ╔═╡ 95e0e143-8b1b-4969-a5a7-7ac4f889294c
-2*π*r_wire
+length_coil = 2*π*r_wire
 
 # ╔═╡ 2666098e-5108-44af-9ebf-44ea3cf8c0e1
 md"## Winding Turns Limitation"
+
+# ╔═╡ 1a026491-6780-420b-ac69-b43eca868976
+length_coil / (0.375mm)
+
+# ╔═╡ 3f96a506-0774-4c10-afca-95e7ffec2201
+r_pad+spacing/2
 
 # ╔═╡ 862a0571-6d95-4b48-b8d6-21089dca0770
 N_calc = 2*π / asin((spacing+r_pad+spacing/2) / r_wire)
@@ -44,7 +50,7 @@ N_calc = 2*π / asin((spacing+r_pad+spacing/2) / r_wire)
 N_selected = floor(N_calc)
 
 # ╔═╡ 6472e56c-232c-4c49-a363-4deca6c4bc97
-N = N_selected
+N = 40
 
 # ╔═╡ 0eb25ab4-9f2c-45b1-a0b5-9373efe1cda1
 Rw = N * ρ_copper *2 * length / (0.035mm * r_pad) |> Ω
@@ -125,7 +131,7 @@ Unitful = "~1.19.0"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.1"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "c7af93e2569b198d0f2f1604aa17a180c0f3d674"
 
@@ -207,6 +213,8 @@ version = "5.11.0+0"
 # ╠═4549359a-c877-4c26-be9b-5e21b41fd1f1
 # ╠═95e0e143-8b1b-4969-a5a7-7ac4f889294c
 # ╠═2666098e-5108-44af-9ebf-44ea3cf8c0e1
+# ╠═1a026491-6780-420b-ac69-b43eca868976
+# ╠═3f96a506-0774-4c10-afca-95e7ffec2201
 # ╠═862a0571-6d95-4b48-b8d6-21089dca0770
 # ╠═d1ee3cb3-f480-4b20-9f5b-868cb07a4820
 # ╠═6472e56c-232c-4c49-a363-4deca6c4bc97
